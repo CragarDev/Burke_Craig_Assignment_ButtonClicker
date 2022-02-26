@@ -16,9 +16,9 @@
         type="search"
         name="search"
         id="search"
-        value="search"
+        placeholder="search"
       />
-      <button id="login-btn" type="submit">Login</button>
+      <button id="login-btn" type="submit" onclick="logIn(this)">Login</button>
     </nav>
     <div class="main flex-start">
       <div class="main-left">
@@ -27,7 +27,9 @@
             <h2 class="word">ninja</h2>
             <h4 class="word-type">noun</h4>
             <h4 class="word-usage">Plural: <span>ninjas</span></h4>
-            <button id="likes" type="submit"><span>13</span> likes</button>
+            <button id="likes" type="submit" onclick="likeBtnClicked(this)">
+              <span>13</span> likes
+            </button>
           </div>
           <div class="dict-right flex-center-center">
             <p class="word-definition">
@@ -41,7 +43,9 @@
             <h2 class="word">ninja</h2>
             <h4 class="word-type">noun</h4>
             <h4 class="word-usage">Plural: <span>ninjas</span></h4>
-            <button id="likes" type="submit"><span>37</span> likes</button>
+            <button id="likes" type="submit" onclick="likeBtnClicked(this)">
+              <span>37</span> likes
+            </button>
           </div>
           <div class="dict-right flex-center-center">
             <p class="word-definition">
@@ -54,7 +58,9 @@
       <div class="main-right">
         <div class="info-card mb">
           <h2 class="info-title">Dojonary is defined by <span>YOU</span></h2>
-          <button id="add-definition">Add Definition</button>
+          <button id="add-definition" onclick="removeMe(this)">
+            Add Definition
+          </button>
         </div>
       </div>
     </div>
