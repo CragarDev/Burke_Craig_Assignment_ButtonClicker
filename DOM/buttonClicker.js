@@ -2,6 +2,7 @@ console.log("Button Checker JS");
 
 function logIn(element) {
   element.innerText = "Logout";
+  element.style.backgroundColor = "darkRed";
 }
 
 function removeMe(element) {
