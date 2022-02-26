@@ -1,0 +1,67 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utility Classes */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.mb {
+  margin-bottom: 30px;
+}
+
+/* body section */
+body {
+  background-color: rgb(210, 210, 210);
+}
+
+/* nav section */
+
+.nav-bar {
+  background-color: blue;
+  margin: 0 auto;
+  width: 65%;
+  min-height: 80px;
+}
+
+/* main section */
+.main {
+  background-color: rgb(255, 255, 255);
+  min-height: 700px;
+  margin: 0 auto;
+  width: 65%;
+  padding-top: 40px;
+}
+
+/* main-left section */
+.main-left {
+  flex: 2;
+  background-color: darkgoldenrod;
+  min-height: 600px;
+  margin-right: 30px;
+}
+
+/* Dictionary Card */
+.dictionary-card {
+  background-color: blueviolet;
+  min-height: 280px;
+}
+
+/* main-right section */
+.main-right {
+  flex: 1;
+  background-color: lightcoral;
+  min-height: 300px;
+}
+
+/* Info Card */
+.info-card {
+  background-color: rgb(226, 43, 214);
+  min-height: 230px;
+}
