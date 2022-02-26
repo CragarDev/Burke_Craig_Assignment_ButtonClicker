@@ -9,14 +9,39 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="nav-bar"></nav>
-    <div class="main flex">
+    <nav class="flex-center-between">
+      <h1>Dojonary</h1>
+      <input
+        class="search"
+        type="search"
+        name="search"
+        id="search"
+        value="search"
+      />
+      <button id="login-btn" type="submit">Login</button>
+    </nav>
+    <div class="main flex-start">
       <div class="main-left">
-        <div class="dictionary-card mb"></div>
-        <div class="dictionary-card"></div>
+        <div class="dictionary-card mb flex-start">
+          <div class="dict-left">
+            <h2 class="word">ninja</h2>
+            <h4 class="word-type">noun</h4>
+            <h4 class="word-usage">Plural: <span>ninjas</span></h4>
+            <button id="likes" type="submit"><span>13</span> likes</button>
+          </div>
+          <div class="dict-right flex-center-center">
+            <p class="word-definition">
+              A practitioner skilled in the <a href="">Japanese</a> art of
+              <a href="">ninjutsu</a>
+            </p>
+          </div>
+        </div>
       </div>
       <div class="main-right">
-        <div class="info-card mb"></div>
+        <div class="info-card mb">
+          <h2 class="info-title">Dojonary is defined by <span>YOU</span></h2>
+          <button id="add-definition">Add Definition</button>
+        </div>
       </div>
     </div>
     <script src="./DOM/buttonClicker.js" async defer></script>
